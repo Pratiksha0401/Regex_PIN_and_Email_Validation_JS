@@ -1,7 +1,5 @@
-const readline = require("prompt-sync");
-const prompt=readline();
 
-let pin = prompt("Enter PIN : ");
+let pin = 'A400088';
 
 let pinRegex = RegExp('^[1-9]{1}[0-9]{5}$');
 
